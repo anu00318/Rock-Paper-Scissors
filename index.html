@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.0/css/bulma.min.css">
+</head>
+
+<body>
+    <div class="container full-height full-width">
+        <div class="columns is-centered">
+            <div class="column is-one-third is-family-sans-serif">
+                <div class="card">
+                    <img class="image is-300x300 is-inline-block" src="pics/rps.jpg">
+                    <header class="card-header">
+                        <h2 class="card-header-title">Rock Paper Scissors</h2>
+                        <button class="card-header-icon" aria-label="more options">
+                            <span class="icon">
+                                <i class="fas fa-angle-down" aria-hidden="true"></i>
+                            </span>
+                        </button>
+                    </header>
+                    <div class="card-content">
+                        <div id="pScore">Your Score:</div>
+                        <div id="cScore">Computer's Score:</div>
+                        <div id="cChoice">Computer's Choice:</div>
+                        <div id="result">
+                            Result
+                        </div>
+                        <div id="movesLeft">
+                            Moves Left:
+                        </div>
+                    </div>
+                    <footer class="card-footer">
+                        <button id="rock" class="card-footer-item">Rock</button>
+                        <button id="paper" class="card-footer-item">Paper</button>
+                        <button id="scissors" class="card-footer-item">Scissors</button>
+                        <button id="reset" class="card-footer-item">Play Again</button>
+                    </footer>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+</body>
+<script src="app.js"></script>
+
+</html>
